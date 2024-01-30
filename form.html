@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Learn Forms</h2>
+    <!-- form action is used for getting the backend code to work -->
+    <form action="backend.php">
+        <!-- label tag jab hum Name par click karenge toh woh name box mein cursor aa jayega -->
+        <label for="name">Name</label>
+        <!-- div tag is used to get the next input in the new line -->
+        <div>
+            <input type="text" id="name">
+        </div>
+        <br>
+         <div>
+            Mobile Number : <input type="text" id="mobile number">
+        </div>
+        <br>
+        <div>
+            <!-- here we used input:email -->
+            Email : <input type="email" name="Myemail" id="Email">
+        </div>
+        <br>
+        <div>
+            <!-- here we used input:date -->
+            Date : <input type="date" name="MyDate" id="date">
+        </div>
+        <br>
+        <div>
+            <!-- here we used input:checkbox woh tick karne wala checkbox -->
+            Are You Eligible : <input type="checkbox" name="MyEligibility" id="" checked>
+        </div>
+        <br>
+        <div>
+            <!-- here we used input:radio yaha par options mein se ek hi option choose kar sakte hai -->
+            Gender : Male <input type="radio" name="MyGender" id="">Female <input type="radio" name="MyGender" id="">
+        </div>
+        <br>
+        <div>
+            <!-- here we use textarea yeh humme jagah deta hai comment ya feedback dene ke liye -->
+            Space to write like comments : <br><textarea name="MyText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <!-- is function se hum woh state aur country wala jaise option choose kar sakte hai-->
+            <!-- ye humme options ka table deta hain aur usme se ek select karna hota hain -->
+
+            <label for="Car">Car</label>
+            <select name="Car" id="Car">
+                <option value="Indica">Indica</option>
+                <option value="Renault Duster" selected>Renault Duster</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <!-- here we used input:submit and input:reset to get submit and reset keys -->
+            <!-- &ndsp is used for giving space in html -->
+            Submit : <input type="submit" value="Submit">&nbsp;
+            Reset : <input type="reset" value="Reset">
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <style>
+        
+        .left {
+            display: inline-block;
+            border: 2px solid red;
+            position: absolute;
+            top: 3px;
+            height: 100px;
+            width: 200px;
+        }
+        .left img{
+            height: 75px;
+            width: 75%;
+            margin: 3px auto;
+        }
+         .pazari{
+            text-align: center;
+         }
+
+        .middle{
+            border: 2px solid blue;
+            width: 36%;
+            margin: 29px auto;
+        }
+        .navbar li a {
+            border: 1px solid black;
+            border-radius: 5px;
+        color: rgb(6, 5, 5);
+        text-decoration: none;
+        padding: 3px 15px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        
+        border: 1px solid black;
+        text-decoration: underline;
+        color: grey;
+
+    }
+        
+
+        .navbar li {
+            display: inline-block;
+            padding: 3px 7px;
+        }
+
+        .right {
+
+            border: 2px solid green;
+            position: absolute;
+            right: 3px;
+            top: 15px;
+        }
+        .middle input{
+            border-radius: 10px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="pazari.jpg" alt="" srcset="">
+            <div class="pazari">PAZARI</div>
+        </div>
+        <div class="middle">
+            <input type="text" name="search" id="search" placeholder="Search this website">
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li class="list"><a href="#">Home</a></li>
+                <li class="list"><a href="#">Account</a></li>
+                <li class="list"><a href="#">Your Orders</a></li>
+                <li class="list"><a href="#">WishList</a></li>
+                <li class="list"><a href="#"><img src="" alt="" srcset=""></a></li>
+            </ul>
+
+        </div>
+    </header>
+
+</body>
+
+</html>

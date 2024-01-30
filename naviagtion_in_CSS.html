@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar{
+            
+            background-color: rgb(185, 72, 185);
+            border-radius: 30px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 3px;
+        }
+        .navbar li a:hover{
+            color: blueviolet;
+        }
+        .navbar ul{
+            /* after we float to left the background gets nullified so it should be done overflow auto */
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 33px;
+        }
+        .search{
+            float: right;
+            margin-right: 62px;
+            border: black;
+            margin-top: 11px; 
+        }
+        .navbar input{
+            border-radius: 17px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>

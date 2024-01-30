@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links and Buttons in CSS</title>
+    <style>
+        .container {
+            background-color: rgb(133, 220, 131);
+            border: 2px solid black;
+            /* auto inmargin takes the table to the center */
+            margin: 34px auto;
+            padding: 36px;
+
+            width: 666px;
+
+        }
+
+        a {
+            /* text-decoration helps in making line and underline */
+            text-decoration: line;
+            color: black;
+            background-color: rgb(165, 51, 51);
+        }
+        /* hover is used when we hover mouse on that tab and the following functions are exeuted */
+        a:hover {
+            color: rgb(45, 51, 57);
+            background-color: rgb(243, 6, 6);
+        }
+         /* visited this functions will be executed when the site is visited */
+        a:visited {
+            background-color: aquamarine;
+        }
+         /* active means the link is still active */
+        a:active {
+            background-color: blue;
+        }
+
+        .btn {
+            
+            color: black;
+            background-color: crimson;
+            border-radius: 3px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            border: none;
+            padding: 6px;
+            /* cursor pointer is the hath wala cursor */
+            cursor: pointer;
+            font-size: 13px;
+
+        }
+
+        .btn:hover {
+            color: rgb(45, 51, 57);
+            background-color: rgb(243, 6, 6);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont">
+        <h3>Styling</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ducimus doloribus! Similique, fugit animi
+            possimus dolore obcaecati molestiae nam, tempora atque at eius sequi. Sunt natus blanditiis eligendi,
+            aperiam nihil, minus neque nesciunt tenetur non adipisci saepe laborum ipsa quod.</p>
+        <a href="http://twitter.com" target="_blank">Read More</a>
+
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+
+</html>

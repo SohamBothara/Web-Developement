@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            background-color: rgb(250, 226, 205);
+            margin: 33px auto;
+        }
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+        }
+        #fruits{
+            /* float means take the whole paragraph to left or right or center */
+            float: left;
+            width: 49.30%;
+           
+        }
+        #computer{
+            float: right;
+            width: 49.30%;
+            height: 194px;
+            /* margin-right: 6px; */
+
+
+        }
+        #stationary{
+            float: center;
+            clear: both;
+            
+            /* margin: 12px; */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            In this File we will learn the alignment in css
+        </h2>
+
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quia at qui deleniti inventore, voluptates delectus praesentium excepturi impedit voluptas aspernatur tempore et, obcaecati quam assumenda eius dolorem iusto fugiat dicta distinctio quo nam voluptatem mollitia? Architecto optio sequi distinctio.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo alias iure inventore sequi eveniet ipsa. Ea earum aspernatur distinctio accusamus quod aliquam.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe vero commodi assumenda, atque numquam, inventore quo error quae ratione maiores nobis, facere aperiam excepturi laboriosam maxime nihil molestiae molestias. Culpa odio debitis numquam corporis atque laudantium exercitationem, nam saepe vitae commodi ut, dolorem ipsa? Dignissimos aliquid quidem qui praesentium sint.</p>
+        </div>
+    </div>
+    
+
+</body>
+</html>

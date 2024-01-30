@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and Background</title>
+    <style>
+        #a{
+            /* this is used for changing background color */
+            background-color: red;
+            /* this is used to change the height of paragraph it doesnt change the size of text */
+            height: 100px;
+             /* this is used to change the weight of paragraph it doesnt change the size of text */
+            width: 455px;
+            /* this is used to change the vorder width */
+            border-width: 4px;
+            /* this changes border color */
+            border-color: green;
+            /* this changes border style */
+            border-style: solid;
+            border: 4px,green,solid;
+            border-radius: 2px;
+        }
+        #b{
+            background-color: rgb(58, 243, 98);
+            height: 100px;
+            width:455px; 
+            /* in the below 8 functions we can change the color, width, style, radius of background individually */
+            border-top: 2px solid rgb(231, 22, 231);
+            border-right: 2px solid rgb(18, 10, 133);
+            border-bottom: 2px solid rgba(9, 144, 27, 0.774);
+            border-left: 2px solid rgb(156, 42, 13);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 14px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 24px;
+        }
+        #c{
+            height: 500px;
+            width:455px; 
+            background-image: url('https://source.unsplash.com/featured/300x201');
+            border: 2px solid red;
+            background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+            /* from the below 4 functions we can change the position of the image */
+            /* background-position: 192px 34px; */
+            background-position: center center;
+            /* background-position: bottom right; */
+            /* background-position: top center; */ 
+        }
+    </style>
+</head>
+<body>
+    <h2>Borders and Background</h2>
+    <p id="a">In this file we learn about borders and background</p>
+    <p id="b">In this file we learn about borders and background</p>
+    <p id="c">In this file we learn about borders and background</p>
+</body>
+</html>

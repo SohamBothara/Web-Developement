@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            position: sticky;
+            top: 3px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        #pazari {
+            float: left;
+            color: white;
+            cursor: default;
+        }
+
+        .as {
+            float: right;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: red
+        }
+
+        .search {
+            width: 30%;
+            margin: auto;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li id="pazari">Pazari</li>
+                <li class="as"><a href="#">Home</a></li>
+                <li class="as"><a href="#">About</a></li>
+                <li class="as"><a href="#">Services</a></li>
+                <li class="as"><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
